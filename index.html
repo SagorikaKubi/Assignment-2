@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment</title>
     <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -23,20 +23,19 @@
 <body>
 
     <header class="container mt-5 ">
-
-        <!-- nav/navbar section -->
+        <!-- Navbar part -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
-                <img class="w-25 " src="images/Backpack/Logo.png" alt="">
+                <img class="logo-img " src="images/Backpack/Logo.png" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="#">Products</a>
                         <a class="nav-link" href="#">About us</a>
                         <a class="nav-link" href="#">Contact us</a>
                     </div>
@@ -219,7 +218,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 shadow rounded">
-                        <img src="images/Backpack/bag6.png" class="card-img-top" alt="...">
+                        <img src="images/Backpack/bag6.png" class="card-img-top " alt="...">
                         <div class="card-body">
                             <h5 class="card-title backpack-writings">Hiking Trekking Bag Camping</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, quas.
@@ -237,7 +236,23 @@
                 </div>
             </div>
         </section>
+
+        <!-- last section(new onw) -->
+        <section class=" mt-5  d-flex align-items-center justify-content-center last-section">
+            <div>
+                <h1 class="connected">STAY CONNECTED</h1>
+                <h5 class="backpack-writings">Get updates on sales, specials and more</h5>
+                <input type="text" placeholder="Enter your email address">
+                <button class="btn btn-success">Submit</button>
+            </div>
+        </section>
     </main>
+
+    <footer class="text-center pt-3 pb-2 copyright">
+        <small class="reserved">©2021. Penguin Fashion, All rights reserved.</small>
+    </footer>
+
+
 
     <!-- bootstrap js link -->
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
