@@ -1,0 +1,44 @@
+ 
+ h1, h2{
+    font-family: 'Oswald', sans-serif;
+ }
+ h3{
+     color: tomato;
+ }
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: 'Roboto', sans-serif; 
+}
+.header-container{
+    background-color: rgb(224, 210, 191);
+}
+ .heading{
+    font-size: 3.5rem;
+    color: rgb(226, 108, 65);
+
+}
+
+.home-img{
+    height: 70px;
+
+}
+.img-writings{
+font-weight: bold;
+color:rgb(20, 20, 192)
+}
+.last-img{
+    height: 350px;
+}
+
+/* casual section */
+.backpack-writings{
+    color:rgb(138, 20, 89)
+}
+.backpack-card-footer{
+    background-color: white;
+    border:0;
+}
